@@ -48,3 +48,4 @@ In order for deployment and usage of Chatbot in local machine, run the following
 ```
 $ (venv) python app.py
 ```
+On opening the localhost on port 5000, click on the Chat icon present in the right bottom corner to start interacting with the UniTN Chatbot.
