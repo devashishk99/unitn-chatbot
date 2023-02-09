@@ -1,0 +1,702 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for university? Bison."
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+
+              "what is the name of your developers",
+              "what is the name of your creators",
+              "what is the name of the developers",
+              "what is the name of the creators",
+              "who created you",
+              "your developers",
+              "your creators",
+              "who are your developers",
+              "developers",
+              "you are made by",
+              "you are made by whom",
+              "who created you",
+              "who create you",
+              "creators",
+              "who made you",
+              "who designed you"
+      ],
+      "responses": [
+              "Deva developed me in Feb 2023, for his python project",
+              "I was developed by Deva",
+              "A brilliant guy developed me from UniTN, Deva"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+              "name",
+              "your name",
+              "do you have a name",
+              "what are you called",
+              "what is your name",
+              "what should I call you",
+              "whats your name?",
+              "what are you",
+              "who are you",
+              "who is this",
+              "what am i chatting to",
+              "who am i taking to",
+              "what are you"
+      ],
+      "responses": [
+              "You can call me UniTN Guide.",
+              "I'm UniTN Guide",
+              "I'm UniTN Guide aka University of Trento's Chatbot cum Assistant."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+              "timing of uni",
+              "what is university timing",
+              "working days",
+              "when are you guys open",
+              "what are your hours",
+              "hours of operation",
+              "when is the uni open",
+              "university timing",
+              "what about uni timing",
+              "is university open on saturday",
+              "tell something about university timing",
+              "what is the university  hours",
+              "when should i come to university",
+              "when should i attend university",
+              "what is my uni time",
+              "university timing",
+              "timing university"
+      ],
+      "responses": [
+              "The University is open 9am-5pm Monday-Friday!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "number",
+      "patterns": [
+
+              "more info",
+              "contact info",
+              "how to contact university",
+              "university telephone number",
+              "university number",
+              "What is your contact no",
+              "Contact number?",
+              "how to call you",
+              "university phone no?",
+              "how can i contact you",
+              "Can i get your phone number",
+              "how can i call you",
+              "phone number",
+              "phone no",
+              "call"
+      ],
+      "responses": [
+              "You can contact the Rectorate reception at +39 0461 281111"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "course",
+      "patterns": [
+              "list of courses",
+              "list of courses offered",
+              "list of courses offered in unitn",
+              "what are the courses offered in your university?",
+              "courses?",
+              "courses offered",
+              "courses offered in unitn",
+              "courses you offer",
+              "branches?",
+              "courses available at UniTN?",
+              "branches available at UniTN?",
+              "what are the courses in UniTN?",
+              "what are branches in UniTN?",
+              "what are courses in UniTN?",
+              "branches available in UniTN?",
+              "can you tell me the courses available in unitn?",
+              "can you tell me the branches available in unitn?",
+              "Computer engineering?",
+              "Cognitive Science",
+              "Psychology",
+              "Mechanical",
+              "ict",
+              "ICT"
+      ],
+      "responses": [
+              "UniTN offers wide variety of courses in Cognitive Science, Information Communication Technology (ICT), Computer Science Engineering, Mechanical Engineering and many more.",
+              "For detailed list of courses and study programmes please visit <a target=\"_blank\" href=\"https://www.unitn.it/en/ateneo/1819/programmes-of-study\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+              "information about fee",
+              "information on fee",
+              "tell me the fee",
+              "university fee",
+              "fee per semester",
+              "what is the fee of each semester",
+              "what is the fees of each year",
+              "what is fee",
+              "what is the fees",
+              "how much is the fees",
+              "fees for first year",
+              "fees",
+              "about the fees",
+              "tell me something about the fees"
+      ],
+      "responses": [
+              "For general fees related details, visit this <a target=\"_blank\" href=\"\"> link</a> and for international students visit <a target=\"_blank\" href=\"https://international.unitn.it/incoming/tuition-fees\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "location",
+      "patterns": [
+              "where is the university located",
+              "university is located at",
+              "where is university",
+              "where is university located",
+              "address of university",
+              "how to reach university",
+              "university location",
+              "university address",
+              "wheres the university",
+              "how can I reach university",
+              "whats is the university address",
+              "what is the address of university",
+              "address",
+              "location"
+      ],
+      "responses": [
+              "<b>University of Trento</b> via Calepina, 14 - I-38122 Trento  <a target=\"_blank\" href=\"https://goo.gl/maps/cW8C4LDb81oSicRm6\"> here</a> "
+      ],
+      "context_set": ""
+},
+{
+      "tag": "dormitory",
+      "patterns": [
+              "dormitory facility",
+              "dormitory servive",
+              "dormitory location",
+              "dormitory address",
+              "dormitory facilities",
+              "dormitory fees",
+              "Does university provide dormitory",
+              "Is there any dormitory",
+              "Where is dormitory",
+              "do you have dormitory",
+              "do you guys have dormitory",
+              "dormitory",
+              "dormitory capacity",
+              "what is the dormitory fee",
+              "how to get in dormitory",
+              "what is the dormitory address",
+              "how far is dormitory from university",
+              "dormitory university distance",
+              "where is the dormitory",
+              "how big is the dormitory",
+              "distance between university and dormitory",
+              "distance between dormitory and university"
+      ],
+      "responses": [
+              "For all the accomodation related enquires visit <a target=\"_blank\" href=\"https://www.unitn.it/servizi/213/alloggi\"> here</a>"
+      ],
+      "context_set": ""
+},
+{
+      "tag": "event",
+      "patterns": [
+              "events organised",
+              "list of events",
+              "list of events organised in university",
+              "list of events conducted in university",
+              "What events are conducted in university",
+              "Are there any event held at university",
+              "Events?",
+              "functions",
+              "what are the events",
+              "tell me about events",
+              "what about events"
+      ],
+      "responses": [
+              "There are different events going on in different departments like Sports Week, Conferences and various other events. For more information you can visit university Website <a target=\"_blank\" href=\"https://www.unitn.it/en\"> here "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "document",
+      "patterns": [
+              "document to bring",
+              "documents needed for admision",
+              "documents needed at the time of admission",
+              "documents needed during admission",
+              "documents required for admision",
+              "documents required at the time of admission",
+              "documents required during admission",
+              "What document are required for admission",
+              "Which document to bring for admission",
+              "documents",
+              "what documents do i need",
+              "what documents do I need for admission",
+              "documents needed"
+      ],
+      "responses": [
+              "The documents required might vary based the study programme you choose. To know more about various study programmes and their application procedure please visit <a target=\"_blank\" href=\"https://www.unitn.it/en/ateneo/1819/programmes-of-study\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    
+    {
+      "tag": "syllabus",
+      "patterns": [
+              "Syllabus for IT",
+              "what is the Information Technology syllabus",
+              "syllabus",
+              "timetable",
+              "what is IT syllabus",
+              "syllabus",
+              "What is next lecture"
+      ],
+      "responses": [
+              "To know about syllabus and timetable visit <a target=\"_blank\" href=\"https://easyacademy.unitn.it/AgendaStudentiUnitn/index.php?view=home&_lang=en\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "library",
+      "patterns": [
+              "is there any library",
+              "library facility",
+              "library facilities",
+              "do you have library",
+              "does the university have library facility",
+              "university library",
+              "where can i get books",
+              "book facility",
+              "Where is library",
+              "Library",
+              "Tell me about library",
+              "how many libraries"
+      ],
+      "responses": [
+              "There are four main libraries spread within Trento and Rovereto.",
+              "To know more about libraries click <a target=\"_blank\" href=\"https://www.biblioteca.unitn.it/en\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "infrastructure",
+      "patterns": [
+              "how is university infrastructure",
+              "infrastructure",
+              "university infrastructure"
+      ],
+      "responses": [
+              "University of Trento has Excellent Infrastructure. Campus is clean. Good IT Labs With Good Speed of Internet connection"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+              "food facilities",
+              "canteen facilities",
+              "canteen facility",
+              "is there any canteen",
+              "Is there a cafetaria in university",
+              "Does university have canteen",
+              "Where is canteen",
+              "where is cafetaria",
+              "canteen",
+              "Cafetaria"
+      ],
+      "responses": [
+              "The canteen is run by Opera with variety of food available",
+              "To know more about canteen click <a target=\"_blank\" href=\"https://www.unitn.it/servizi/291/mense\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+              "food menu",
+              "food in canteen",
+              "Whats there on menu",
+              "what is available in university canteen",
+              "what foods can we get in university canteen"
+      ],
+      "responses": [
+              "we serve Bread Pakoda, Chowmin, Thaali, Samosa, Dal Rice and many more on menu"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+              "What is university placement",
+              "Which companies visit in university",
+              "What is average package",
+              "companies visit",
+              "package",
+              "placement",
+              "recruitment",
+              "companies",
+              "jobs",
+              "how can get guidance to get jobs",
+              "what job can i do"
+      ],
+      "responses": [
+              "To know about placements and jobs guidance visit <a target=\"_blank\" href=\"https://www.jobguidance.unitn.it/\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "ithod",
+      "patterns": [
+              "Who is IT HOD",
+              "Where is IT HOD",
+              "it hod",
+              "name of it hod"
+      ],
+      "responses": [
+              "Dr. Peter Parker is IT HOD who is available on Ground floor"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "civilhod",
+      "patterns": [
+              "Who is Civil HOD",
+              "Where is civil HOD",
+              "civil hod",
+              "name of civil hod"
+      ],
+      "responses": [
+              "Dr. Clark Kent is Civil HOD who is available on Ground floor"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "mechhod",
+      "patterns": [
+              "Who is Mechanical HOD",
+              "Where is  mechanical HOD",
+              "mechanical hod",
+              "name of mechanical hod"
+      ],
+      "responses": [
+              "Dr. Ryan Reynolds is Mechanical HOD who is available on Ground floor"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+              "what is the name of principal",
+              "what is the rector name",
+              "principal name",
+              "Who is university rector",
+              "Where is principal's office",
+              "principal",
+              "name of principal",
+              "rector"
+      ],
+      "responses": [
+              "Flavio Deflorian is university rector",
+              "The list of statutory bodies in UniTN can be found <a target=\"_blank\" href=\"https://webapps.unitn.it/du/en/OrganoIstituzionale\"> here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "exam",
+      "patterns": [
+              "exam dates",
+              "exam schedule",
+              "When is semester exam",
+              "Semester exam timetable",
+              "sem",
+              "semester",
+              "exam",
+              "when is exam",
+              "exam timetable",
+              "exam dates",
+              "when is semester"
+      ],
+      "responses": [
+              "You can view the Exams Calendar  <a target=\"_blank\" href=\"https://easyacademy.unitn.it/AgendaStudentiUnitn/index.php?view=home&_lang=en\">website</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+              "what is the process of admission",
+              "what is the admission process",
+              "How to take admission in your university",
+              "What is the process for admission",
+              "admission",
+              "admission process"
+      ],
+      "responses": [
+              "Application can also be submitted online through the Unversity's  <a target=\"_blank\" href=\"https://infostudenti.unitn.it/en/application-and-enrolment\">website</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+              "What facilities university provide",
+              "university facility",
+              "What are university facilities",
+              "facilities",
+              "facilities provided"
+      ],
+      "responses": [
+              "UniTN provides best-in-class facilities and serives",
+              "For more information please visit <a target=\"_blank\" href=\"https://www.unitn.it/en/services\"> here</a>",
+              "UniTN has many facilities including fully AC Lab with internet connection, smart classroom, Auditorium, library, etc"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "university intake",
+      "patterns": [
+              "max number of students",
+              "number of seats per branch",
+              "number of seats in each branch",
+              "maximum number of seats",
+              "maximum students intake",
+              "What is university intake",
+              "how many stundent are taken in each branch",
+              "seat allotment",
+              "seats"
+      ],
+      "responses": [
+              "For every department/study programme the intake could be different",
+              "On average, the intake can be said to be 60 per programme",
+              "For exact information please visit check the study programme details <a target=\"_blank\" href=\"https://www.unitn.it/en/ateneo/1819/programmes-of-study\"> here </a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "uniform",
+      "patterns": [
+              "university dress code",
+              "university dresscode",
+              "what is the uniform",
+              "can we wear casuals",
+              "Does university have an uniform",
+              "Is there any uniform",
+              "uniform",
+              "what about uniform",
+              "do we have to wear uniform"
+      ],
+      "responses": [
+              "UniTN does not have a uniform"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "committee",
+      "patterns": [
+              "what are the different committe in university",
+              "different committee in university",
+              "Are there any committee in university",
+              "Give me committee details",
+              "committee",
+              "how many committee are there in university"
+      ],
+      "responses": [
+              "There are various committe in university you can see at  <a target=\"_blank\" href=\"https://www.unitn.it/en/ateneo/1698/organization\">here</a> "
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "random",
+      "patterns": [
+              
+              "I love you",
+              "Will you marry me",
+              "Do you love me"
+      ],
+      "responses": [
+              "I am not program for this please ask appropriate query"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "swear",
+      "patterns": [
+              "fuck",
+              "bitch",
+              "shut up",
+              "hell",
+              "stupid",
+              "idiot",
+              "dumb ass",
+              "asshole",
+              "fucker"
+      ],
+      "responses": [
+              "please use appropriate language",
+              "Maintaining decency would be appreciated"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vacation",
+      "patterns": [
+              "holidays",
+              "when will semester starts",
+              "when will semester end",
+              "when is the holidays",
+              "list of holidays",
+              "about vacations",
+              "about holidays",
+              "When is vacation",
+              "When is holidays",
+              "how long will be the vacation"
+      ],
+      "responses": [
+              "Since every department follows a different schedule please visit them through this <a target=\"_blank\" href=\"https://www.unitn.it/en/ateneo/1617/structures\">here</a>"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "salutaion",
+      "patterns": [
+              "okk",
+              "okie",
+              "nice work",
+              "well done",
+              "good job",
+              "thanks for the help",
+              "Thank You",
+              "its ok",
+              "Thanks",
+              "k",
+              "ok",
+              "okay"
+      ],
+      "responses": [
+              "I am glad I helped you",
+              "Welcome, anything else i can assist you with?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "task",
+      "patterns": [
+              "what can you do",
+              "what are the thing you can do",
+              "things you can do",
+              "what can u do for me",
+              "how u can help me",
+              "why i should use you"
+      ],
+      "responses": [
+              "I can answer to low-intermediate questions regarding university",
+              "You can ask me questions regarding university, and i will try to answer them"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag":"ragging",
+      "patterns":[
+              "ragging",
+              "is ragging practice active in university",
+              "does university have any antiragging facility",
+              "is there any ragging cases",
+              "is ragging done here",
+              "ragging juniors",
+              "ragging history",
+              "ragging incidents"
+              
+      ],
+      "responses": [
+              "We are Proud to tell you that our university provides ragging free environment, and we have strict rules against ragging"
+      ]
+
+    },
+    {
+      "tag":"hod",
+      "patterns":[
+              "hod",
+              "hod name",
+              "who is the hod"
+      ],
+      "responses":[
+              "HODs differ for each branch, please be more specific like: (HOD CogSci)"
+      ]
+    },
+    {
+      "tag": "train",
+      "patterns":[
+              "nearest train station",
+              "what is the nearest train station",
+              "which train station is near",
+              "closest train station",
+              "which train station is closest",
+              "nearby train stations",
+              "train",
+              "train station nearby"
+      ],
+      "responses":[
+              "Trento Station is the closest followed by Rovereto Station."
+      ]
+    }
+  ]
+}
