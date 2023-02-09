@@ -10,7 +10,7 @@ This repo currently contains the starter files.
 
 Clone repo and create a virtual environment
 ```
-$ git clone https://github.com/python-engineer/chatbot-deployment.git
+$ git clone https://github.com/devashishk99/unitn-chatbot.git
 $ cd chatbot-deployment
 $ python3 -m venv venv
 ```
@@ -49,3 +49,5 @@ In order for deployment and usage of Chatbot in local machine, run the following
 $ (venv) python app.py
 ```
 On opening the localhost on port 5000, click on the Chat icon present in the right bottom corner to start interacting with the UniTN Chatbot.
+
+![Alt Text](https://github.com/devashishk99/unitn-chatbot/blob/main/static/images/unitn_chatbot.png)
