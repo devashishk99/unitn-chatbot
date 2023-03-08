@@ -1,6 +1,7 @@
-import numpy as np
-import nltk
-from nltk.stem.porter import PorterStemmer
+import numpy as np # package for scientific computing 
+import nltk # provides easy-to-use interfaces for NLP related tasks
+from nltk.stem.porter import PorterStemmer # uses Porter stemming algorithm
+
 stemmer = PorterStemmer()
 
 
@@ -36,8 +37,7 @@ def bag_of_words(tokenized_sentence, words):
     sentence_words = [stem(word) for word in tokenized_sentence]
     # initialize bag with 0 for each word
     bag = np.zeros(len(words), dtype=np.float32)
-    for idx, w in enumerate(words):
+    for idx, w in enumerate(words): # iterates over list of words  
         if w in sentence_words: 
-            bag[idx] = 1
-
+            bag[idx] = 1 # sets index to 1 if its present in sentence
     return bag
